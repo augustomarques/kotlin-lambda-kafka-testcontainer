@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: kotlin-lambda-kafka-testcontainer
+
+kafka:
+  enabled: ${KAFKA_ENABLED:true}
+  bootstrap:
+    servers: ${KAFKA_BROKER:`localhost:29092`}
